@@ -79,14 +79,14 @@ void APlant::NotifyHit(UPrimitiveComponent* MyComp, AActor* Other, UPrimitiveCom
 
 }
 
-void APlant::NotificarZombieEnRango(AZombie* Zombie)
-{
-
-
-
-}
-
-
+//void APlant::NotificarZombieEnRango(AZombie* Zombie)
+//{
+//
+//
+//
+//}
+//
+//
 
 
 

@@ -18,7 +18,7 @@
 #include "Planta_Ataque.h"
 #include "Lanza_Guisantes.h"
 
-#include "Suscriptor.h"
+
 
 #include "ZombieComun.h"
 
@@ -84,10 +84,10 @@ void APVZ_USFX_LAB02GameModeBase::BeginPlay()
 
 		Zombies.Add(NuevoZombie);
 
-		for (APlant* Plant : Plantas)
-		{
-			Plant->NotificarZombieEnRango(this);
-		}
+		//for (APlanta* Planta : PlantasEnRangoDeVision)
+		//{
+		//	Planta->NotificarZombieEnRango(this);
+		//}
 
 	}
 

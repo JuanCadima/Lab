@@ -52,7 +52,7 @@ public:
 
 
 	// Declarar un contenedor tipo TMap de objetos
-	TArray<APlant*> Plantas;
+	TMap<FString, APlant*> Plantas;
 
 	// Declarar un vector de objetos
 

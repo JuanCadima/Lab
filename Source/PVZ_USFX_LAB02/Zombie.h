@@ -20,7 +20,7 @@ public:
 	// Sets default values for this actor's properties
 	AZombie();
 
-private:
+	private:
 
 	UPROPERTY()
 	TArray<AActor*> Subscribers = TArray<AActor*>();
